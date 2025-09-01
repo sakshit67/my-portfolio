@@ -594,11 +594,18 @@
     
   .certificates-item p {
     text-align: center;       /* center under the image */
-    font-size: 16px;          /* adjust text size */
-    font-weight: 500;         /* semi-bold */
     margin-top: 10px;         /* space between image and text */
     color: var(--light-gray);          /* white text (you can change) */
     transition: color 0.3s ease;
+    color: var(--light-gray);
+    font-size: var(--fs-6);
+    font-weight: var(--fw-300);
+    line-height: 1.6;
+    display: -webkit-box;
+    line-clamp: 4;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    overflow: auto;
   }
 
   .certificates-item p:hover {
