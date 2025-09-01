@@ -1617,9 +1617,18 @@
       padding: 0 20px;
     }
   
-    .navbar-link { font-weight: var(--fw-500); }
-  
-  
+    .navbar-link { 
+      color: #aaa;
+      font-weight: var(--fw-500);
+      transition: 0.3s;
+      cursor: pointer; 
+    }
+
+
+    .navbar-link:hover {
+      color: #ffd369;
+    }
+
   
     /**
      * ABOUT
