@@ -1220,7 +1220,14 @@
     .connect-section {
     margin-top: 30px;
     margin-bottom: 30px;
+    color: #fff;
   }
+
+.connect-section p,
+.connect-section h3{
+  color: #fff;
+}
+
 
   .connect-text {
     font-size: 1rem;
